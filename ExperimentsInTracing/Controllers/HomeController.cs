@@ -29,5 +29,20 @@ namespace ExperimentsInTracing.Controllers
 
             return View();
         }
+
+        public ActionResult ForceError()
+        {
+            Trace.WriteLine("Started the ForceError Method in the Home Controller - Trace.writeline");
+           
+            //this makes it into elmah, but wouldn't use this except in the worst case. 
+            throw new System.NotSupportedException("Test Exception");
+
+            return View();
+        }
+
+
+
+
+
     }
 }
