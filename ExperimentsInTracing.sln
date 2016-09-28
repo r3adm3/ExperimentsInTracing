@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExperimentsInTracing", "ExperimentsInTracing\ExperimentsInTracing.csproj", "{60624F9C-DE02-4651-9FB2-7B2732CB3627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExperimentsInTracing.Tests", "ExperimentsInTracing.Tests\ExperimentsInTracing.Tests.csproj", "{4DD6D40B-9366-4785-894B-A6F345807745}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60624F9C-DE02-4651-9FB2-7B2732CB3627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60624F9C-DE02-4651-9FB2-7B2732CB3627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60624F9C-DE02-4651-9FB2-7B2732CB3627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60624F9C-DE02-4651-9FB2-7B2732CB3627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DD6D40B-9366-4785-894B-A6F345807745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD6D40B-9366-4785-894B-A6F345807745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD6D40B-9366-4785-894B-A6F345807745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD6D40B-9366-4785-894B-A6F345807745}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
